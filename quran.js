@@ -290,5 +290,5 @@ const initialize = function($ = window.jQuery){
 
 window.addEventListener('DOMContentLoaded', function(){
   initialize();
-  $('#quran').Quran();
+  window.jQuery('#quran').Quran();
 });
